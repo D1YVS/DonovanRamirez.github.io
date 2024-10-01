@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO</title>
+    <link rel="apple-touch-icon" sizes="android-chrome-192x192" href="/Images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/Images/favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Images/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+         <h1 class="ñeñe">HOLA SOY DONOVAN</h1>
+
+      <div class="primero">
+      <header class="head">
+         <h1>Sobre mí</h1>
+                <p>Soy un diseñador gráfico apasionado por la creación de identidades visuales que destacan en la industria. Con más de 2 años de experiencia en el diseño, mi enfoque está centrado en soluciones creativas y personalizadas que capturan la esencia de cada marca y proyecto en los que colaboro. Trabajo con una amplia gama de estilos y herramientas digitales para llevar a cabo ideas innovadoras y visualmente atractivas. Soy estudiante actualmente de diseño de la Comunicación Gráfica, me enfoco en diferentes areas del diseño, aquí podras ver un poco sobre mi trabajo.</p>
+
+                <img  class="fotos" src="Images/yo.jpg" alt="Foto de persona">
+      </div>
+
+        </header>
+    <main class="borde,main">
+        <h1>FOTOGRAFÍA</h1>
+        <p>Capturo momentos que cuentan historias únicas a través de la lente. Mi enfoque fotográfico abarca una variedad de estilos, desde retratos íntimos y dinámicos hasta paisajes que resaltan la belleza de la naturaleza. Me apasiona explorar la interacción de la luz, el color y la emoción en cada toma.</p>
+
+        <section>
+<img src="Images/fotos/IMG_0008.jpg" alt="">
+<img src="Images/fotos/IMG_9831.jpg" alt="">
+<img src="Images/fotos/IMG_9963.JPG" alt="">
+<img src="Images/fotos/IMG_9982.jpg" alt="">
+<img src="Images/fotos/IMG_9991.jpg" alt="">
+<img src="Images/fotos/IMG_9999.jpg" alt="">
+<img src="Images/fotos/IMG_0024.JPG" alt="">
+<img src="Images/fotos/IMG_0025.JPG" alt="">
+<img src="Images/fotos/IMG_0028.JPG" alt="">
+        </section>
+        <div id="my-div"></div>
+    </main>
+
+    <aside class="lado">
+      <h1>CARTELES</h1>
+       <p>A través de esta colección, quiero mostrar mi enfoque creativo y versátil en el diseño gráfico. Cada cartel aquí presente tiene una historia única que contar, desde campañas publicitarias hasta eventos culturales, capturando la esencia del mensaje que se quiere transmitir. Mi objetivo es combinar creatividad con impacto visual para crear piezas que resuenen con la audiencia.</p>
+       <section>
+         <img src="Images/trabajos/cartel-2.jpg" >
+         <img src="Images/trabajos/Cartel.jpg" >
+         <img src="Images/trabajos/feminismo1.jpg">
+         <img src="Images/trabajos/Genero-3.jpg">
+         <img src="Images/trabajos/Portada Libro.png">
+       </section>
+
+        <h1>SERIE</h1>
+           <p>Esta serie es para una exposición que se llevo a cabo en la Universidad Autonoma Metropolitana Azcapotzalco</p>
+           <section>
+            <img src="Images/Serie/1.jpg">
+            <img src="Images/Serie/2.jpg">
+            <img src="Images/Serie/3.jpg">
+            <img src="Images/Serie/4.jpg">
+            <img src="Images/Serie/5.jpg">
+            <img src="Images/Serie/6.jpg">
+            <img src="Images/Serie/7.jpg">
+            <img src="Images/Serie/8.jpg">
+            <img src="Images/Serie/9.jpg">
+            <img src="Images/Serie/10.jpg">
+          </section>
+
+          <h1>ILUSTRACIONES</h1>
+          <p>Soy un Ilustrador nuevo por lo que yo solo uso para poder dibujar el Illustrator, ya que de esta forma cualquier ilustración estara en vectores, de esta forma cualquier ilsutración se podra agrandar al tamaño que quieran, y no bajara en su resolución</p>
+          <section>
+           <img src="Images/Iustraciones/Acantilado.jpg">
+           <img src="Images/Iustraciones/entrada.jpg">
+           <img src="Images/Iustraciones/Estatuas.jpg">
+           <img src="Images/Iustraciones/Gigante.jpg">
+           <img src="Images/Iustraciones/Jaguar.jpg">
+           <img src="Images/Iustraciones/Señores-de-Xibalba.jpg">
+         </section>
+          
+      </aside>
+
+     <footer class="pie">
+      <h1>CONTACTO</h1>
+      <ol></ol>
+         <li><p>visitanos en <a href="https://www.instagram.com/d1yvsxd/">INSTAGRAM</a></p></li>
+         <li><p>visitanos en <a href="https://www.facebook.com/profile.php?id=100094630113227">FACEBOOK</a></p></li>
+         <li><p>visitanos en <a href="https://www.twitch.tv/diyusgamer">TWITCH</a></p></li>
+     </ol>
+      </footer>
+
+     
+
+    </div>
+    <script src="JS/vivus.js"></script>
+    <script>
+        new Vivus('my-div', {duration: 200, type: 'oneByOne', file: 'img/gg.svg'},);
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+ <script>
+    ScrollReveal().reveal('.head', { delay: 250, easing: 'ease-in'  });
+    ScrollReveal().reveal('.main' , { delay: 500, scale: 0.80  });
+    ScrollReveal().reveal('.lado',  { delay: 500, rotate:  {x:20 , z:20}});
+    ScrollReveal().reveal('.pie', { delay: 1000, distance: '150%' , origin: 'bottom'}) ;
+ </script>
+</body>
+</html>
